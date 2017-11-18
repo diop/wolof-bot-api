@@ -14,6 +14,9 @@ app.get('/', (req, res) => {
 
   wordInfo.word = translations.find(t => t[language] === word)
 
+  if (!wordInfo.word)
+    res.send({message: `Word ${word} not found.`})
+
   wordInfo.definition = definitions[wordInfo.word.en]
 
   res.send(wordInfo)
