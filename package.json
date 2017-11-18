@@ -1,0 +1,29 @@
+{
+  "name": "wolof-bot-api",
+  "version": "1.0.0",
+  "description": "Wolof Bot Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diop/wolof-bot-api.git"
+  },
+  "keywords": [
+    "wolof",
+    "english",
+    "computer",
+    "science",
+    "translations"
+  ],
+  "author": "Jason Emberly & Fodé Diop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diop/wolof-bot-api/issues"
+  },
+  "homepage": "https://github.com/diop/wolof-bot-api#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
