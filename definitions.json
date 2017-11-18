@@ -1,0 +1,18 @@
+{
+  "array": {
+    "en": "An array is similar data saved on a computer system in a sequential form.",
+    "wo": "Béne array da fa mel na données si ordinateur system bi si sequence."
+  },
+  "function": {
+    "en": "A named section of a program that performs a specific task.",
+    "wo": "Béne section bu tudu turu li nga wara déf."
+  },
+  "arithmetic": {
+    "en": "The branch of mathematics dealing with the properties and manipulation of numbers.",
+    "wo": "Branchu kalkil bi moye li gnu may ba gnu mana changer numero yi."
+  },
+  "bit": {
+    "en": "Bit is Binary Digit. It refers to a digit number, either a 0 or a 1. The binary digit is used to represent computerized data.",
+    "wo": "Bit bi nurmero bu binere la. Li mouye woowé numero bi mou mome, 0 walla 1. Li mouye wo moye données ordinateur."
+  }
+}
