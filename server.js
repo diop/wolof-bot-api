@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
 
-const translations = require('translations.json')
-const definitions = require('definitions')
+const translations = require('./translations.json')
+const definitions = require('./definitions.json')
 
 app.get('/', (req, res) => {
   const { word, language } = req.query
