@@ -7,8 +7,8 @@ const definitions = require('./definitions.json')
 app.get('/', (req, res) => {
   const { word, language } = req.query
 
-  if (!word || !language) {
-    res.send({message: `You must specify a word and a language in the query string.`})
+  if (!word) {
+    res.send({message: `You must specify a word in the query string.`})
     return
   }
 
@@ -17,7 +17,9 @@ app.get('/', (req, res) => {
     definition: null
   }
 
-  wordInfo.word = translations.find(t => t[language] === word)
+  wordInfo.word = translations.find(t => {
+    return t.en === word || t.wo === word
+  })
 
   if (!wordInfo.word)
     res.send({message: `Word ${word} not found.`})
