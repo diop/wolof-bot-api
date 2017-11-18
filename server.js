@@ -7,6 +7,11 @@ const definitions = require('./definitions.json')
 app.get('/', (req, res) => {
   const { word, language } = req.query
 
+  if (!word || !language) {
+    res.send({message: `You must specify a word and a language in the query string.`})
+    return
+  }
+
   const wordInfo = {
     word: null,
     definition: null
