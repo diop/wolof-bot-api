@@ -32,3 +32,10 @@ app.get('/', (req, res) => {
 const port = process.env.PORT || 3000
 
 app.listen(port, () => console.log('Listening on', port))
+
+// //cloud code
+// //https://docs.recime.io/cloud-code.html
+// exports.handler = (context, done) => {
+//     console.log(context.args);
+//     done();
+// };

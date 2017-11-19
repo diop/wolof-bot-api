@@ -14,5 +14,37 @@
   "bit": {
     "en": "Bit is Binary Digit. It refers to a digit number, either a 0 or a 1. The binary digit is used to represent computerized data.",
     "wo": "Bit bi nurmero bu binere la. Li mouye woowé numero bi mou mome, 0 walla 1. Li mouye wo moye données ordinateur."
+  },
+  "byte": {
+    "en": "Eight bits is equal to 1 byte.",
+    "wo": "Juróom-ñett moy bokkal 1 domm."
+  },
+  "internet": {
+    "en": "Internet is a network that accommodates several computers to facilitate exchange and transfer of data.",
+    "wo": "Web bi moy kognu ordinateurs yu berré pour ndimbalé ecahnge you données."
+  },
+  "data": {
+    "en": "Data refers to the information that is saved on a computer.",
+    "wo": "Donnée moy lo xamné man nga ko dentch si sa ordinateur."
+  },
+  "boolean": {
+    "en": "An expression, the value of which is either true or false.",
+    "wo": "Béne expression bo xamné man na nekk degg wala du degg."
+  },
+  "fault": {
+    "en": "Hardware or software failure.",
+    "wo": "Wegn wala logiciel bu doxxul."
+  },
+  "hardware": {
+    "en": "Hardware is a set of physical objects such as monitor, keyboard, mouse, and so on.",
+    "wo": "Wegn moy lo xamné da fa nekk degg lou mel na ecran, clavier ak souris ak lenéne."
+  },
+  "zip": {
+    "en": "ZIP is an acronym for Zone Information Protocol. ZIP enables transfer of data using compression of files.",
+    "wo": "ZIP moy turu Zone Information Protocol. ZIP bi daf lay may nga mena ejul sey fichier touti lo léne."
+  },
+  "www": {
+    "en": "WWW stands for World Wide Web. It’s a term used to define the Internet.",
+    "wo": "WWW moy World Wide Web. Mome la gnu toudé Internet bi."
   }
 }

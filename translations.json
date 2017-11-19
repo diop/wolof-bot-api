@@ -14,5 +14,37 @@
   {
     "en": "bit",
     "wo": "domm"
-  }
+  },
+  {
+    "en": "byte",
+    "wo": "byte"
+  },
+  {
+    "en": "internet",
+    "wo": "web"
+  },
+  {
+    "en": "data",
+    "wo": "donnée"
+  },
+  {
+    "en": "boolean",
+    "wo": "wawdett"
+  },
+  {
+    "en": "fault",
+    "wo": "defaut"
+  },
+  {
+    "en": "hardware",
+    "wo": "wegn"
+  },
+  {
+    "en": "zip",
+    "wo": "zip"
+  },
+  {
+    "en": "www",
+    "wo": "www"
+  },
 ]
