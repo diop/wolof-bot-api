@@ -1,8 +1,9 @@
 ## Wolof Bot API
+Facebook Messenger Bot Hackathon
 
-+ Facebook Messenger Bot Hackathon
-[Jason Emberley]()
-[Fodé Diop]()
+## Team Members
++ [Jason Emberley](https://github.com/jason00111)
++ [Fodé Diop](https://github.com/diop)
 
 ## TODOs
 + [X] Recime.io  Setup
