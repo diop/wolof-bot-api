@@ -4,8 +4,24 @@ const app = express()
 const translations = require('./translations.json')
 const definitions = require('./definitions.json')
 
+const words = require('./words.json')
+
+function findWord(query) {
+  words.find(w => {
+    return w.word.en === query || w.word.en === query
+  })
+}
+
+// function makeHash(inputArray) {
+//   const result = {}
+//
+//   inputArray.forEach(wordObject => {
+//     result[]
+//   })
+// }
+
 app.get('/', (req, res) => {
-  const { word, language } = req.query
+  const { word } = req.query
 
   if (!word) {
     res.send({message: `You must specify a word in the query string.`})
@@ -21,8 +37,10 @@ app.get('/', (req, res) => {
     return t.en === word || t.wo === word
   })
 
-  if (!wordInfo.word)
+  if (!wordInfo.word) {
     res.send({message: `Word ${word} not found.`})
+    return
+  }
 
   wordInfo.definition = definitions[wordInfo.word.en]
 
@@ -32,6 +50,8 @@ app.get('/', (req, res) => {
 const port = process.env.PORT || 3000
 
 app.listen(port, () => console.log('Listening on', port))
+
+module.exports = app
 
 // //cloud code
 // //https://docs.recime.io/cloud-code.html

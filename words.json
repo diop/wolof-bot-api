@@ -1,0 +1,122 @@
+[
+  {
+    "en": {
+      "word": "array",
+      "definition": "An array is similar data saved on a computer system in a sequential form."
+    },
+    "wo": {
+      "word": "siwo",
+      "definition": "Béne array da fa mel na données si ordinateur system bi si sequence."
+    }
+  },
+  {
+    "en": {
+      "word": "function",
+      "definition": "A named section of a program that performs a specific task."
+    },
+    "wo": {
+      "word": "fonction",
+      "definition": "Béne section bu tudu turu li nga wara déf."
+    }
+  },
+  {
+    "en": {
+      "word": "arithmetic",
+      "definition": "The branch of mathematics dealing with the properties and manipulation of numbers."
+    },
+    "wo": {
+      "word": "kalkil",
+      "definition": "Branchu kalkil bi moye li gnu may ba gnu mana changer numero yi."
+    }
+  },
+  {
+    "en": {
+      "word": "bit",
+      "definition": "Bit is Binary Digit. It refers to a digit number, either a 0 or a 1. The binary digit is used to represent computerized data."
+    },
+    "wo": {
+      "word": "domm",
+      "definition": "Bit bi nurmero bu binere la. Li mouye woowé numero bi mou mome, 0 walla 1. Li mouye wo moye données ordinateur."
+    }
+  },
+  {
+    "en": {
+      "word": "byte",
+      "definition": "Eight bits is equal to 1 byte."
+    },
+    "wo": {
+      "word": "byte",
+      "definition": "Juróom-ñett moy bokkal 1 domm."
+    }
+  },
+  {
+    "en": {
+      "word": "internet",
+      "definition": "Internet is a network that accommodates several computers to facilitate exchange and transfer of data."
+    },
+    "wo": {
+      "word": "web",
+      "definition": "Web bi moy kognu ordinateurs yu berré pour ndimbalé ecahnge you données."
+    }
+  },
+  {
+    "en": {
+      "word": "data",
+      "definition": "Data refers to the information that is saved on a computer."
+    },
+    "wo": {
+      "word": "donnée",
+      "definition": "Donnée moy lo xamné man nga ko dentch si sa ordinateur."
+    }
+  },
+  {
+    "en": {
+      "word": "boolean",
+      "definition": "An expression, the value of which is either true or false."
+    },
+    "wo": {
+      "word": "wawdett",
+      "definition": "Béne expression bo xamné man na nekk degg wala du degg."
+    }
+  },
+  {
+    "en": {
+      "word": "fault",
+      "definition": "Hardware or software failure."
+    },
+    "wo": {
+      "word": "defaut",
+      "definition": "Wegn wala logiciel bu doxxul."
+    }
+  },
+  {
+    "en": {
+      "word": "hardware",
+      "definition": "Hardware is a set of physical objects such as monitor, keyboard, mouse, and so on."
+    },
+    "wo": {
+      "word": "wegn",
+      "definition": "Wegn moy lo xamné da fa nekk degg lou mel na ecran, clavier ak souris ak lenéne."
+    }
+  },
+  {
+    "en": {
+      "word": "zip",
+      "definition": "ZIP is an acronym for Zone Information Protocol. ZIP enables transfer of data using compression of files."
+    },
+    "wo": {
+      "word": "zip",
+      "definition": "ZIP moy turu Zone Information Protocol. ZIP bi daf lay may nga mena ejul sey fichier touti lo léne."
+    }
+  },
+  {
+    "en": {
+      "word": "www",
+      "definition": "WWW stands for World Wide Web. It’s a term used to define the Internet."
+    },
+    "wo": {
+      "word": "www",
+      "definition": "WWW moy World Wide Web. Mome la gnu toudé Internet bi."
+    }
+  }
+]
