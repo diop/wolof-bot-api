@@ -8,6 +8,7 @@ function makeHash(inputArray) {
   const result = {}
 
   inputArray.forEach(wordObject => {
+    wordObject.url = `https://wolof-bot-api.herokuapp.com/images/${wordObject.word.en}.png`
     result[wordObject.word.en] = wordObject
     result[wordObject.word.wo] = wordObject
   })

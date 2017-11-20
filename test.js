@@ -38,11 +38,12 @@ describe("it", () => {
       .then( res => {
         expect(res).to.have.status(200)
         expect(res).to.be.json
-        expect(res.body).to.have.keys(['word', 'definition'])
+        expect(res.body).to.have.keys(['word', 'definition', 'url'])
         expect(res.body.word).to.have.keys(['en', 'wo'])
         expect(res.body.definition).to.have.keys(['en', 'wo'])
         expect(res.body.word.en).to.equal('bit')
         expect(res.body.word.wo).to.equal('domm')
+        expect(res.body.url).to.be.a.string
       })
   )
 
