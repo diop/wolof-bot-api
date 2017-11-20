@@ -15,6 +15,8 @@ function makeHash(inputArray) {
   return result
 }
 
+app.use(express.static('public'))
+
 app.get('/', (req, res) => {
   const { word } = req.query
 

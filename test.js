@@ -45,4 +45,13 @@ describe("it", () => {
         expect(res.body.word.wo).to.equal('domm')
       })
   )
+
+  it("responds if an image is requested", () =>
+    chai.request(app)
+      .get('/images/www.png')
+      .then( res => {
+        expect(res).to.have.status(200)
+        expect(res.type).to.equal('image/png')
+      })
+  )
 })
