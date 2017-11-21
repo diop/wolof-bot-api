@@ -10,7 +10,7 @@ A Facebook Messenger bot built during The DevCircles Oakland Hackathon 2017, to 
 Wolof speakers learn Computer Science terminology in their own native language and in English.
 
 ## Built with: Languages, APIs, Hardware, Hosts, Libraries and Frameworks.
-We built this entire backend API ourselves in 4 hours this past Saturday to win the Hackathon.
+We built this entire backend API ourselves this past Saturday to win the Hackathon.
 Our tech stack is:
 + NodeJS, ExpressJS, Heroku, Recime.io
 
